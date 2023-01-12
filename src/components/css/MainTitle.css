@@ -1,40 +1,30 @@
-
-.main__title{
-
+.main__title {
     display: grid;
-    grid-template-columns: repeat(5,minmax(auto,220px));
-    grid-template-areas: "a title title title b"
-    "a p p p b"
-    ;
+    grid-template-columns: repeat(5, minmax(auto, 220px));
+    grid-template-areas:
+        "a title title title b"
+        "a p p p b";
     column-gap: 38.76px;
     justify-content: center;
-  
-    
-  }
-  
-  .main__h2{
+}
+
+.main__h2 {
     font-size: 48px;
     font-weight: 400;
     grid-area: title;
     text-align: center;
     line-height: 50px;
     margin-top: 181px;
-    color: #06170B;
-  
-  
-  }
-  
-  .main__p{
-  grid-area: p;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: 21px;
-  margin-bottom: 125px;
-  color: #666666;
-    
-  
-  }
-  
-  
+    color: #06170b;
+}
+
+.main__p {
+    grid-area: p;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 21px;
+    margin-bottom: 125px;
+    color: #666666;
+}

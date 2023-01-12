@@ -26,16 +26,6 @@ function Main() {
         }
     };
 
-    // const reset = function () {
-    //     let cards = document.querySelectorAll(".main__count");
-    //     cards = [...cards];
-    //     cards.forEach((card) => {
-    //         card.value = 0;
-    //     });
-
-    //     setCount(count - count);
-    //     setTotalMeters(totalMeters - totalMeters);
-    // };
 
     return (
         <main className="main">
@@ -74,10 +64,6 @@ function Main() {
                 ))}
             </div>
             <Buttons count={count} setCount={setCount} totalMeters={totalMeters} setTotalMeters={setTotalMeters}/>
-                {/* <button type='button' className="main__button-clear" onClick={reset}>
-                    CLEAR
-                </button>
-                <button type='button' className="main__button-calculate">CALCULATE</button> */}
             <Summary count={count} totalMeters={totalMeters} />
         </main>
     );
