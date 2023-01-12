@@ -1,0 +1,112 @@
+.main__buttons-container{
+   
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,minmax(auto,220px));
+    column-gap: 38.76px;
+    row-gap: 41px;
+
+}
+.main__button-clear{
+
+    
+    height: 61.16px;
+    background-color: #fff;
+    color: #222222;
+    border-radius: 5px;
+    border: 1px solid #FD9255;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 69px;
+    transition: 0.8s;
+    cursor: pointer;
+   
+
+
+  }
+
+  
+.main__button-clear:hover{
+   background-color: #FD9255;
+  }
+
+.main__button-calculate{
+
+    grid-column: -2;
+    height: 61.16px;
+    background: #FD9255;
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 69px;
+    transition: 0.8s;
+    cursor: pointer;
+  
+
+  }
+
+
+.main__button-calculate:hover{
+    background-color: #fff;
+    color: #222222;
+    border: 1px solid #FD9255;
+
+  }
+
+
+  
+  @media  screen and (max-width:1300px) {
+
+
+    .main__buttons-container{
+      
+        grid-template-columns: repeat(4,220px);
+        margin: 0 10px;
+   
+      }
+
+    
+}
+
+   @media  screen and (max-width:1050px) {
+
+
+    .main__buttons-container{
+
+        grid-template-columns: 220px 220px 220px;
+      
+   
+      }
+   
+    
+}
+
+@media  screen and (max-width:800px) {
+
+
+    .main__buttons-container{
+
+      grid-template-columns: 250px 250px;
+     
+ 
+    }
+}
+
+
+@media  screen and (max-width:590px) {
+
+
+    .main__buttons-container{
+        grid-template-columns: 250px;
+       
+        gap: 20px;
+   
+      }
+
+      .main__button-calculate{
+        margin: 0;
+      }
+}
+
